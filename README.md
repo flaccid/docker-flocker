@@ -6,11 +6,15 @@ A Docker image for Flocker.
 
 ### Build
 
-    $ docker build -t flocker .
+    $ docker build -t flaccid/flocker .
 
 ### Run
 
-    $ docker run -it flocker
+    $ docker run -it flaccid/flocker
+
+### Publish
+
+    $ docker push flaccid/bamboo-server
 
 Drops to a shell only.
 
