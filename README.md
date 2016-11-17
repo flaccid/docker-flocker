@@ -14,7 +14,7 @@ A Docker image for Flocker.
 
 ### Publish
 
-    $ docker push flaccid/bamboo-server
+    $ docker push flaccid/flocker
 
 Drops to a shell only.
 
