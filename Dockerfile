@@ -11,4 +11,4 @@ RUN apk add --update --no-cache gcc g++ linux-headers musl-dev libffi-dev openss
     rm -rf /var/cache/apk/* && \
     rm -rf /usr/local/src
 
-CMD ["cat"]
+CMD ["/bin/sh"]
